@@ -1,0 +1,15 @@
+name: PurpurAway
+version: '${project.version}'
+main: adhdmc.purpuraway.PurpurAway
+api-version: 1.19
+depend: [ PlaceholderAPI ]
+authors: [ Rhythmic, Peashooter101 ]
+description: A PAPI Expansion to get a placeholder out of Purpur's AFK System.
+commands:
+  afk:
+    description: Become away or come back!
+    permission: purpuraway.afk
+permissions:
+  purpuraway.afk:
+    description: Become away or come back!
+    default: op
